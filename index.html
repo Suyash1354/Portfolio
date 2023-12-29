@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Barlow+Condensed:ital,wght@1,200&family=Barlow+Semi+Condensed:wght@100&family=Karla:ital,wght@0,400;0,700;0,800;1,500&family=Oswald:wght@700&family=PT+Sans&family=Teko&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Barlow+Condensed:ital,wght@1,200&family=Karla:ital,wght@0,400;0,700;0,800;1,500&family=Oswald:wght@700&family=PT+Sans&family=Teko&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="newsryle.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <header>
+        <h1>SERGIO<span>FX</span></h1>
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>VFX <span>Artist</span></p>
+            <h1>Hey! I'm <span>Suyash</span><br>Patil From India</h1>
+        </div>
+    </div>
+
+    <!--------About Section--------->
+    <div id="about"></div>
+    <div class="wrapper">
+        <div class="me">
+            <img src="images/Snapchat-385348941 (1).jpg" alt="About Img">
+            <div class="myself">
+                <h1>About Me</h1>
+                <p>With a dynamic and innovative mindset cultivated over 3 years in the field, I am a seasoned VFX
+                    artist and video editor <br> who transforms creative visions into captivating visual masterpieces.
+                    My journey is marked by a relentless passion for pushing the boundaries of visual <br> storytelling
+                    through the fusion of cutting-edge technology and artistic ingenuity.
+                    Having honed my skills through years of hands-on experience, I possess <br> an acute understanding
+                    of the intricacies of video editing and VFX production. I seamlessly blend technical expertise with
+                    artistic intuition, allowing me to <br> craft immersive narratives that leave a lasting impact on
+                    audiences. From seamlessly integrating mind-bending visual effects to meticulously refining every
+                    <br> frame, my work consistently reflects an unwavering commitment to excellence.
+                </p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('WHO AM I?')">WHO AM I?</p>
+                    <p class="tab-links" onclick="opentab('WHAT DO I DO?')">WHAT DO I DO?</p>
+                    <p class="tab-links" onclick="opentab('HOW DO I DO IT?')">HOW DO I DO IT?</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="WHO AM I?">
+                    <p>I'm Suyash Patil and I'm an Artist <br>with over 3 years of experience <br> working in Short
+                        films and Videos</p>
+                </div>
+
+                <div class="tab-contents" id="WHAT DO I DO?">
+                    <p>As a generalist, I tackle almost all <br> aspects of video whether it be 2D <br> or 3D animation,
+                        visual effects, <br> compositing, live Action and 3D Video.</p>
+                </div>
+
+                <div class="tab-contents" id="HOW DO I DO IT?">
+                    <p>With a wide breadth of software <br> experience using Blender, After Effects, <br> Premiere Pro,
+                        Photoshop, and <br> many others in production environments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+        </div>
+        <!--<div class="work-list"
+            <video src="images/Itachi....Final.....mp4" controls></video>
+            <video src="images/complete.mp4" controls></video>
+        </div>>-->
+
+        <div id="collection">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'ALL')">ALL</button>
+                <button class="tablinks" onclick="openCity(event, 'LIVE_ACTION')">Live Action</button>
+                <button class="tablinks" onclick="openCity(event, 'VFX')">VFX</button>
+                <button class="tablinks" onclick="openCity(event, 'DUBBING_VIDEO')">Dubbing Video</button>
+            </div>
+
+            <div class="button-container">
+                <div id="ALL" class="tabcontent" >
+                    <video src="images/Itachi....Final.....mp4"controls></video>
+                    <video src="images/complete.mp4"controls></video>
+                    <video src="images/1080 p insta.mp4"controls></video>
+                    <video src="images/madara dubb.mp4"controls></video>
+                    <video src="images/pain speech in hindi.mp4"controls></video>
+                    <video src="images/km_20230117-2_1080p_30f_20230118_011548.mp4" controls></video>
+                </div>
+
+                <div id="LIVE_ACTION" class="tabcontent" >
+                    <video src="images/Itachi....Final.....mp4"controls></video>
+                    <video src="images/complete.mp4"controls></video>
+                </div>
+
+                <div id="VFX" class="tabcontent" >
+                    <video src="images/1080 p insta.mp4"controls></video>
+                </div>
+
+                <div id="DUBBING_VIDEO" class="tabcontent"  >
+                    <video src="images/madara dubb.mp4"controls></video>
+                    <video src="images/pain speech in hindi.mp4"controls></video>
+                    <video src="images/km_20230117-2_1080p_30f_20230118_011548.mp4" controls></video>
+                </div>
+            </div>
+        </div>
+
+        <!-----------------------Contact--------------------------->
+         <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1><div class="title">Contact Me</div></h1>
+                        <p><i class="fas fa-paper-plane"></i> patilsuyash31@gmail.com</p>
+                        <p><i class="fas fa-mobile-alt"></i> 8010577385</p>
+                        <div class="social-icons">
+                            <a href="https://www.freelancer.in/dashboard"><i class="fas fa-dove"></i></a>
+                            <a href="https://www.youtube.com/channel/UCt1CFx0nDJB2AzQn9xDBIXg"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right"></div>
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" readonly>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+         </div>
+  
+        
+
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+
+        <script>
+            $(document).ready(function() {
+    $('nav ul li a').click(function() {
+        $('nav ul li a').removeClass('active');
+        $(this).addClass('active');
+    });
+});
+
+            
+            $(document).ready(function() {
+    $('.tab button').click(function() {
+        $('.tab button').removeClass('active');
+        $(this).addClass('active');
+    });
+});
+
+            var tabButtons = document.querySelectorAll('.tab button');
+
+tabButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+        tabButtons.forEach(function(btn) {
+            btn.classList.remove('active');
+            btn.style.setProperty('--after-width', '0');
+        });
+
+        button.classList.add('active');
+        button.style.setProperty('--after-width', '100%');
+    });
+});
+
+            window.onload = function() {
+    document.querySelector('.tablinks[onclick="openCity(event, \'ALL\')"]').click();
+}
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (let tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (let tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                document.getElementById(tabname).classList.add("active-tab");
+                for (let tablink of tablinks) {
+                    if (tablink.innerHTML == tabname) {
+                        tablink.classList.add("active-link");
+                    }
+                }
+            }
+
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+
+                document.querySelector('#contact-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    e.target.elements.name.value = '';
+    e.target.elements.email.value = '';
+    e.target.elements.message.value = '';
+  });
+
+  
+
+            }
+
+        </script>
+</body>
+
+</html>
